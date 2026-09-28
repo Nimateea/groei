@@ -11,7 +11,7 @@ npm install
 npm start
 ```
 
-`npm start` launches Vite on port 3000 and Electron against that exact port. To build and open the production renderer locally, run `npm run desktop`. To create a desktop installer for the current operating system, run `npm run package:desktop`.
+`npm start` launches Vite on port 4174 and Electron against that exact port. To build and open the production renderer locally, run `npm run desktop`. To create a desktop installer for the current operating system, run `npm run package:desktop`.
 
 On Debian/Ubuntu, Electron may require GTK, ATK, NSS, X11, and audio libraries. If launch reports missing shared libraries, install the required packages using your system package manager. A graphical display session is also required.
 

@@ -27,7 +27,7 @@ const createWindow = () => {
     },
   });
 
-  const devServerUrl = process.env.VITE_DEV_SERVER_URL || 'http://localhost:3000';
+  const devServerUrl = process.env.VITE_DEV_SERVER_URL || 'http://localhost:4174';
   if (app.isPackaged || process.env.GROEI_LOAD_DIST === '1') {
     mainWindow.loadFile(path.join(__dirname, '../dist/index.html'));
   } else {

@@ -5,13 +5,13 @@
   "type": "module",
   "main": "electron/main.js",
   "scripts": {
-    "dev": "vite --host 0.0.0.0 --port 3000",
+    "dev": "vite --host 0.0.0.0 --port 4174",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0 --port 4173",
     "electron": "electron .",
     "desktop": "npm run build && GROEI_LOAD_DIST=1 electron .",
     "package:desktop": "npm run build && electron-builder",
-    "start": "concurrently --kill-others \"npm:dev\" \"wait-on http://localhost:3000 && electron .\""
+    "start": "concurrently --kill-others \"npm:dev\" \"wait-on http://localhost:4174 && electron .\""
   },
   "dependencies": {
     "framer-motion": "^11.3.19",
